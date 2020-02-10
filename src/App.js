@@ -10,7 +10,7 @@ class App extends Component {
     };
   }
   componentDidMount() {
-    const url = "http://rt.ex7.pl/get-data";
+    const url = "https://rt.ex7.pl/get-data";
     fetch(url, {
       method: "POST"
     })
